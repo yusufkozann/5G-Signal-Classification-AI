@@ -1,0 +1,16 @@
+# Python gereksiz dosyalari
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# VS Code ayarlari
+.vscode/
+
+# Dataset (ETİK KURAL: Lisanslı veriyi yüklemiyoruz)
+*.pkl
+*.tar.bz2
+RML2016.10a_dict.pkl
+
+# Büyük Model Dosyalari (İsteğe bağlı, 100MB üstüyse github hata verir)
+*.h5
