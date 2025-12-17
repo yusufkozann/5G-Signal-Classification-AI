@@ -13,7 +13,8 @@ AMC is a fundamental technology for **5G/6G Cognitive Radio Networks**, allowing
 ## 🛠️ Tech Stack & Methodology
 * **Core Frameworks:** Python, TensorFlow (Keras), NumPy.
 * **Data Processing:** Raw I/Q (In-Phase/Quadrature) signal processing.
-* **Model Architecture:** * Custom 3-Block CNN with optimized filter sizes (64 -> 128 -> 256).
+* **Model Architecture:**
+    * Custom 3-Block CNN with optimized filter sizes (64 -> 128 -> 256).
     * **Batch Normalization** for training stability.
     * **Dropout** layers to prevent overfitting.
 * **Optimization Strategy:** Implemented `ReduceLROnPlateau` and `EarlyStopping` callbacks to dynamically adjust learning rates and stop training at the optimal point.
@@ -48,7 +49,7 @@ To replicate these results on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/5G-Signal-Classification-AI.git](https://github.com/YOUR-USERNAME/5G-Signal-Classification-AI.git)
+    git clone [https://github.com/yusufkozann/5G-Signal-Classification-AI.git](https://github.com/yusufkozann/5G-Signal-Classification-AI.git)
     ```
 2.  **Install dependencies:**
     ```bash
